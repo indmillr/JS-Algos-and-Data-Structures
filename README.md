@@ -5,4 +5,6 @@ Progression through JavaScript Alogorithms and Data Structures masterclass by Co
 ## TOPICS
 
 Big-O Notation<br>
-Space Complexity
+-- Time Complexity<br>
+-- Space Complexity<br>
+-- Logarithm Complexity
