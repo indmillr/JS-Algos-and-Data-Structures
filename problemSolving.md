@@ -17,6 +17,8 @@
 
 ## Break It Down
 
+- Write out the steps needed to take<br>
+
 ## Solve/Simplify
 
 ## Look Back and Refactor
