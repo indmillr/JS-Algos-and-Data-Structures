@@ -21,4 +21,8 @@
 
 ## Solve/Simplify
 
+- If possible, Solve the problem<br>
+- If NOT possible, solve a simpler problem:<br>
+- Find the core difficulty<br>
+
 ## Look Back and Refactor
