@@ -40,7 +40,7 @@ function maxSubarraySum(arr, num) {
   return max;
 }
 
-// SLIDING WINDOW SOLUTION
+// SLIDING WINDOW SOLUTION TEST EDIT
 function maxSubarraySum(arr, num) {
   let maxSum = 0;
   let tempSum = 0;
