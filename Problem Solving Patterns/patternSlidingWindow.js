@@ -21,7 +21,7 @@ maxSubarraySum([4, 2, 1, 6, 2], 4) // 13
 maxSubarraySum([], 4) // null
 */
 
-// NESTED LOOP SOLUTION (naive) TEST EDIT
+// NESTED LOOP SOLUTION (naive)
 
 function maxSubarraySum(arr, num) {
   if (num > arr.length) {
@@ -40,7 +40,7 @@ function maxSubarraySum(arr, num) {
   return max;
 }
 
-// SLIDING WINDOW SOLUTION TEST EDIT
+// SLIDING WINDOW SOLUTION
 function maxSubarraySum(arr, num) {
   let maxSum = 0;
   let tempSum = 0;
