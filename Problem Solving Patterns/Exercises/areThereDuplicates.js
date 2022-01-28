@@ -15,13 +15,14 @@ areThereDuplicates('a', 'b', 'c', 'a') // true
 */
 
 function areThereDuplicates() {
-  let pointer1 = 0;
-  let pointer2 = arguments.length - 1;
-  while (pointer1 < pointer2) {
-    if (pointer1 === pointer2) {
+  let holder = {};
+  for (let val in arguments) {
+    holder[arguments[val]] = (holder[arguments[val]] || 0) + 1;
+  }
+  for (let key in holder) {
+    if (holder[key] > 1) {
       return true;
-    } else {
-      pointer2--;
     }
+    return false;
   }
 }
