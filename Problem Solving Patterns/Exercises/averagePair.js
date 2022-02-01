@@ -22,10 +22,10 @@ function averagePair(arr, target) {
     let avg = (arr[left] + arr[right]) / 2;
     if (avg === target) {
       return true;
-    } else if (arr[right] > 8) {
-      right--;
-    } else {
+    } else if (avg < num) {
       left++;
+    } else {
+      right--;
     }
   }
   return false;
