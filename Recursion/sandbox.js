@@ -32,3 +32,8 @@ sumRange(3);
 // return 3 + sumRange(3-1);
 //  return 2 + sumRange(2-1);
 //    return 1;
+
+// Common Recurison Pitfalls --------------------
+// -- No Base Case
+// -- Forgetting to 'return' or returning the wrong item
+// -- Stack overflow!
