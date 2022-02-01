@@ -4,7 +4,7 @@ There MUST be a Base Case at which the function stops.
 There MUST be a Different Input with each function call.
 */
 
-// A Simple Recursive Function
+// A Simple Recursive Function ---------------
 function countDown(num) {
   // This is the Base Case (num = 0)
   if (num <= 0) {
@@ -18,10 +18,9 @@ function countDown(num) {
   // Call countDown(2), then repeat
   countDown(num);
 }
-
 countDown(3);
 
-// Another Recursive Function
+// Another Recursive Function ---------------
 function sumRange(num) {
   // Base Case
   if (num === 1) {
@@ -29,3 +28,7 @@ function sumRange(num) {
   }
   return num + sumRange(num - 1);
 }
+sumRange(3);
+// return 3 + sumRange(3-1);
+//  return 2 + sumRange(2-1);
+//    return 1;
