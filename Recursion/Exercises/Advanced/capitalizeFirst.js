@@ -5,9 +5,12 @@ and capitalizes the first letter of each string in the array.
 
 function capitalizeFirst(arr) {
   if (arr.length === 1) {
-    return [arr[0].toUpperCase()];
+    return [arr[0][0].toUpperCase() + arr[0].substr(1)];
   }
   let result = capitalizeFirst(arr.slice(0, -1));
-  result.push(arr.slice(arr.length - 1)[0].toUpperCase());
+  let str =
+    arr.slice(arr.length - 1)[0][0].toUpperCase() +
+    arr.slice(arr.length - 1)[0].substr(1);
+  result.push(str);
   return result;
 }
