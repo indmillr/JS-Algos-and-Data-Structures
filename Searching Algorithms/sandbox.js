@@ -5,7 +5,7 @@ Implement a naive string searching algorithm.
 Implement the KMP string searching algorithm.
 */
 
-// LINEAR SEARCH
+// LINEAR SEARCH --------------------
 // Look at every single item in the array, in order, at a set interval.
 function linearSearch(arr, num) {
   for (let i = 0; i < arr.length; i++) {
@@ -17,3 +17,6 @@ function linearSearch(arr, num) {
   // return -1 if the item is NOT found
   return -1;
 }
+
+// BINARY SEARCH --------------------
+//
